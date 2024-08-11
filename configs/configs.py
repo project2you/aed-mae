@@ -23,8 +23,8 @@ def get_configs_avenue():
 
     # Dataset parameters
     config.dataset = "avenue"
-    config.avenue_path = "/media/alin/ssd2/datasets/Avenue_Dataset/Avenue Dataset"
-    config.avenue_gt_path = "/media/alin/hdd/Transformer_Labels/Avenue_gt"
+    config.avenue_path = "/notebooks/aed-mae/data/avenue/"
+    config.avenue_gt_path = "/notebooks/aed-mae/data/avenue/Avenue_gt"
     config.percent_abnormal = 0.25
     config.input_3d = True
     config.device = "cuda"
